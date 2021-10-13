@@ -14,11 +14,22 @@
      <p id="description">Please take a moment to answer a few questions! :)</p>
 
      <form>
+         <label id="name-label">Name</label>
          <input id="name" type="text" placeholder="Enter Name" required>
+         <label id="name-label">Email</label>
          <input id="name" type="email" placeholder="Enter Email" required>
-         <input id="name" type="number" placeholder="age" min=18 max=50 required>
+         <label id="name-label">Age(optional)</label>
+         <input id="name" type="number" placeholder="age" min=18 max=50>
 
-         <button type="submit">Submit</button>
+        <label id="name-label">Favorite Sport</label>
+        <select id="dropdown">
+            <option value="">Football</option>
+            <option value="">Soccer</option>
+            <option value="">Tennis</option>
+            <option value="">Hackathons</option>
+        </select>
+
+         <button type="submit" id="submit">Submit</button>
      </form>
 
 
