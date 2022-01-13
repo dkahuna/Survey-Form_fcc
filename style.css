@@ -1,6 +1,16 @@
 body {
     font-family: system-ui;
-    background: #f06d06;
-    color: white;
     text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+  }
+
+  label {
+    font-weight: 700;
+    margin: 5px;
+    align-self: flex-start;
   }
