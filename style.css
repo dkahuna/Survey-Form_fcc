@@ -16,6 +16,8 @@ body {
     align-self: flex-start;
   }
 
+
+
   input, select {
     padding: 8px;
     margin-right: 50%;
@@ -25,5 +27,5 @@ body {
     border-radius: 20px;
     display: flex;
     padding: 8px;
-    margin: 20px;
+    margin: 20px 93% 0px 0px;
   }
