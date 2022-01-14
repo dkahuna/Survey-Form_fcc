@@ -36,17 +36,33 @@
         </select>
 
         <!--Radio buttons-->
+        <p>Please mark one to represent for your gender</p>
         <label for="gender">
-            <input id="gender" type="radio" name="gender">Male
+            <input id="gender" type="radio" name="gender" value="male">Male
         </label>
         <label for="gender">
-            <input id="gender" type="radio" name="gender">Female
+            <input id="gender" type="radio" name="gender" value="female">Female
         </label>
+
+        <!--Check boxes-->
+        <p>Would you own a cat, dog, and/or both?</p>
+        <label for="pet">
+            <input id="pet" type="checkbox" name="dog" value="dog">Dog
+        </label>
+        <label for="pet">
+            <input id="pet" type="checkbox" name="cat" value="cat">Cat
+        </label>
+        <label for="pet">
+            <input id="pet" type="checkbox" name="both" value="both">Both
+        </label>
+<br>
+          <!--Feedback from user-->
+    <label for="feedBack">Please let us know how we could've made this a better survey.</label>
+    <textarea id="feedBack" name="feedBack" rows="7" cols="50" >Thank you in advance! From: Team Survey</textarea>
+
 
         <button type="submit" id="submit">Submit</button>
     </form>
-
-
 
 <script src="survey.js"></script>
 </body>
